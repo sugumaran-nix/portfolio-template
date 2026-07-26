@@ -883,11 +883,11 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   gap: 1.25rem;
 }
 
-.bento__card--large   { grid-column: span 7; grid-row: span 2; }
+.bento__card--large   { grid-column: span 7; grid-row: span 2; flex-direction: row; }
 .bento__card--medium  { grid-column: span 5; grid-row: span 1; }
 .bento__card--stat    { grid-column: span 2; grid-row: span 1; }
-.bento__card--socials { grid-column: span 3; grid-row: span 1; }
-.bento__card--wide    { grid-column: span 7; grid-row: span 1; }
+.bento__card--socials { grid-column: span 7; grid-row: span 1; }
+.bento__card--wide    { grid-column: span 12; grid-row: span 1; }
 
 .bento__card {
   background: var(--card-bg);
@@ -1376,11 +1376,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .bento__card--large,
   .bento__card--wide    { grid-column: span 2; }
   .bento__card--medium  { grid-column: span 1; }
-  .bento__card--stat    { grid-column: span 1; }
-  .bento__card--socials { grid-column: span 1; }
+  .bento__card--socials { grid-column: span 2; }
   .bento__card-img      { min-height: 180px; }
+  .bento__card--large   { flex-direction: column; }
   .bento__card--large .bento__card-img { min-height: 220px; }
-  .bento__card--stat,
   .bento__card--socials { min-height: 160px; }
   .bento__socials-links { flex-direction: row; flex-wrap: wrap; }
 }
