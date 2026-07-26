@@ -1,43 +1,57 @@
 # Portfolio Template
 
-A modern, minimal portfolio template for developers and creatives — built to look great out of the box and easy to personalize.
+A clean, minimal portfolio template built for **freshers and students** — zero experience required, just fill in your details and ship it.
 
 **Live demo → [portfolio-template-nine-black.vercel.app](https://portfolio-template-nine-black.vercel.app/)**
 
-![screenshot](assets/images/og-cover.png)
+![Preview](assets/images/og-cover.png)
 
-## Features
+## What's inside
 
 - Dark / light mode toggle
-- Scroll-based marquee animation
-- Project cards with tags
-- Testimonials section
-- Contact form layout
-- Fully responsive
+- Smooth scroll reveal animations
+- Bento-grid project showcase
+- Skills section with tag chips
+- Contact form (Formspree-ready)
+- Mobile-responsive with drawer nav
+- No frameworks — pure HTML, CSS, JS
 
 ## Get started
 
 ```bash
 git clone https://github.com/sugumaran-nix/portfolio-template.git
 cd portfolio-template
-# open index.html in your editor and replace placeholder content
+# open index.html in your editor
 ```
+
+Or just [download the ZIP](https://github.com/sugumaran-nix/portfolio-template/archive/refs/heads/main.zip).
 
 ## Customize
 
-| What | Where |
-|------|-------|
-| Name, title, bio | `index.html` — hero section |
-| Projects | `index.html` — work section |
-| Skills | `index.html` — skills section |
-| Colors / fonts | `assets/css/style.css` |
-| Profile photo | `assets/images/` |
-| Resume PDF | `assets/resume.pdf` |
+| What to change | Where |
+|---|---|
+| Name, role, bio | `index.html` → hero + about sections |
+| Projects (title, desc, tags) | `index.html` → `#projects` section |
+| Skills cards | `index.html` → `#skills` section |
+| Your photo | Replace the SVG placeholder in `about__photo-frame` |
+| Tech stack pills | `index.html` → `about__pills` div |
+| Resume PDF | Drop your file at `assets/resume.pdf` |
+| Contact email | `index.html` → footer + contact section |
+| Colors / fonts | `css/style.css` → CSS variables at the top |
+| Form backend | Set `action="https://formspree.io/f/YOUR_ID"` on the form |
 
 ## Deploy
 
-Works on [Vercel](https://vercel.com), [Netlify](https://netlify.com), or GitHub Pages — drop in the repo and deploy.
+Works out of the box on:
+- **Vercel** — drag and drop or connect repo
+- **Netlify** — same
+- **GitHub Pages** — enable in repo Settings → Pages
+
+## Built for freshers
+
+No client testimonials, no years-of-experience counters. The template is structured around **projects, skills, and process** — exactly what matters when you're starting out.
 
 ## License
 
-MIT — free to use, fork, and modify. A ⭐ is appreciated if this helped you.
+MIT — free to use, fork, and modify.  
+A ⭐ is appreciated if this helped you.
